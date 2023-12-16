@@ -8,9 +8,9 @@ public class StudentDatabase
 	static Connection con;
 	private static void connect()
 	{
-		String url = "jdbc:mysql://localhost:3306/studentdb";
-		String username = "root";
-		String password = "Ameer@2003";
+		String url = "";
+		String username = "";
+		String password = "";
 		try
 		{
 			con = DriverManager.getConnection(url,username,password);
